@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+
+  /* Vercel-style dark theme */
+  .dark {
+    color-scheme: dark;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-6xl mx-auto px-6;
+  }
+  
+  .section {
+    @apply py-16;
+  }
+  
+  .section-title {
+    @apply text-2xl font-semibold mb-8 text-gray-900 dark:text-vercel-white transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-vercel-white dark:bg-vercel-gray-900 border border-gray-200 dark:border-vercel-gray-800 rounded-lg p-6 transition-colors duration-200;
+  }
+  
+  .badge {
+    @apply inline-block px-3 py-1 text-sm bg-gray-100 dark:bg-vercel-gray-800 text-gray-700 dark:text-vercel-gray-300 rounded-full transition-colors duration-200;
+  }
+
+  /* Custom Swiper Styles */
+  .testimonials-swiper .swiper-pagination {
+    @apply mt-8;
+  }
+
+  .swiper-pagination-bullet-custom {
+    @apply w-3 h-3 bg-gray-300 dark:bg-vercel-gray-600 rounded-full opacity-100 mx-1 cursor-pointer transition-all duration-300;
+  }
+
+  .swiper-pagination-bullet-active-custom {
+    @apply bg-vercel-black dark:bg-vercel-white scale-125;
+  }
+
+  .testimonials-swiper {
+    @apply pb-12;
+  }
+}
