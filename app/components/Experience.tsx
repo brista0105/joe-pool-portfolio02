@@ -145,7 +145,7 @@ export default function Experience() {
             <div key={index} className="card">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900">{exp.title}</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-vercel-white transition-colors duration-200">{exp.title}</h3>
                   <p className="text-lg text-gray-700 dark:text-vercel-gray-400 font-medium transition-colors duration-200">{exp.company}</p>
                 </div>
                 <div className="text-sm text-gray-500 dark:text-vercel-gray-500 mt-2 md:mt-0 md:text-right transition-colors duration-200">
