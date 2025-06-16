@@ -4,7 +4,7 @@ export default function Experience() {
   const experiences = [
     {
       title: "Automation & AI Expert",
-      company: "Freelance/Upwork",
+      company: "Freelance Consulting",
       period: "2020 – Present",
       location: "Remote Contract Position",
       description: "Building automation solutions for businesses worldwide using Make.com, N8N, Power Automate, and custom scripting. Specializing in workflow optimization, API integrations, and AI-powered automation systems.",
