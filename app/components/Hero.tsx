@@ -19,24 +19,24 @@ export default function Hero() {
           Joe Pool
         </h1>
         <p className="text-xl text-gray-600 dark:text-vercel-gray-400 mb-8 transition-colors duration-200">
-          Senior Software Developer
+          Automation & AI Expert
         </p>
         <p className="text-lg text-gray-500 dark:text-vercel-gray-500 max-w-2xl mx-auto mb-8 transition-colors duration-200">
-          Versatile software developer with expertise spanning from legacy Visual Studio C# Windows Forms 
-          to modern web technologies including ASP.NET Core, React, and Node.js
+          Specializing in business process automation, AI integration, and workflow optimization using 
+          Power Automate, N8N, Make.com, and custom scripting solutions - $70/hr
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
             href="#contact" 
             className="bg-vercel-black dark:bg-vercel-white text-vercel-white dark:text-vercel-black px-6 py-3 rounded-lg hover:bg-vercel-gray-800 dark:hover:bg-vercel-gray-200 transition-colors duration-200"
           >
-            Let&apos;s Work Together
+            Start Your Automation Project
           </a>
           <a 
             href="#experience" 
             className="border border-gray-300 dark:border-vercel-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-vercel-gray-900 transition-colors duration-200 text-gray-900 dark:text-vercel-white"
           >
-            View Experience
+            View Automation Portfolio
           </a>
         </div>
       </div>

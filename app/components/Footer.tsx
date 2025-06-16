@@ -6,7 +6,7 @@ export default function Footer() {
           © 2025 Joe Pool. All rights reserved.
         </p>
         <p className="text-sm text-gray-400 dark:text-vercel-gray-600 mt-2 transition-colors duration-200">
-          Senior Software Developer | Available for new opportunities
+          Automation & AI Expert | $70/hr | Available for automation projects worldwide
         </p>
       </div>
     </footer>

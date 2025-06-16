@@ -3,135 +3,135 @@ import Image from 'next/image';
 export default function Experience() {
   const experiences = [
     {
-      title: "Software Developer",
-      company: "TEK Systems",
-      period: "Nov 2022 – Present",
+      title: "Automation & AI Expert",
+      company: "Freelance/Upwork",
+      period: "2020 – Present",
       location: "Remote Contract Position",
-      description: "Developing and maintaining enterprise applications using ASP.NET MVC, C#, and SQL Server. Working with IBM DB2 databases and legacy systems integration.",
-      technologies: ["ASP.NET MVC", "C#", "SQL Server", "IBM DB2", "T-SQL", "Visual Studio"],
+      description: "Building automation solutions for businesses worldwide using Make.com, N8N, Power Automate, and custom scripting. Specializing in workflow optimization, API integrations, and AI-powered automation systems.",
+      technologies: ["Make.com", "N8N", "Power Automate", "Python", "API Integration", "GoHighLevel", "Zapier", "Beautiful Soup"],
       projects: [
         {
-          name: "Enterprise Data Migration System",
-          description: "Built a comprehensive data migration tool to transfer legacy data from IBM DB2 to SQL Server, processing over 2 million records with data validation and error handling.",
-          achievements: ["Reduced migration time by 60%", "Zero data loss during migration", "Automated validation reporting"],
+          name: "E-commerce Order Automation Pipeline",
+          description: "Built a comprehensive automation system using Make.com to process WooCommerce orders, update inventory, send customer notifications, and sync with accounting software.",
+          achievements: ["Processed 10,000+ orders automatically", "Reduced manual work by 95%", "Zero order processing errors"],
           image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "Customer Management Portal",
-          description: "Developed a web-based customer management system using ASP.NET MVC with role-based authentication and real-time reporting capabilities.",
-          achievements: ["Improved customer data access by 40%", "Implemented secure user authentication", "Created automated report generation"],
+          name: "CRM Lead Nurturing Automation",
+          description: "Created intelligent lead nurturing workflows using GoHighLevel and Power Automate with AI-powered lead scoring and personalized email sequences.",
+          achievements: ["Increased conversion rates by 40%", "Automated 500+ leads monthly", "Reduced sales cycle by 30%"],
           image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "Legacy System Integration",
-          description: "Integrated multiple legacy systems with modern web applications using custom APIs and data transformation services.",
-          achievements: ["Connected 5 disparate systems", "Reduced manual data entry by 80%", "Improved data consistency across platforms"],
+          name: "Multi-Platform Data Synchronization",
+          description: "Developed N8N workflows to synchronize customer data across Google Workspace, Slack, CRM systems, and email marketing platforms with real-time updates.",
+          achievements: ["Connected 8 different platforms", "Eliminated data silos", "Real-time sync with 99.9% uptime"],
           image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ],
       testimonial: {
-        text: "Joe's expertise in legacy system integration saved us months of development time. His ability to bridge old and new technologies is exceptional.",
+        text: "Joe's automation expertise transformed our business operations. His Make.com workflows saved us 40 hours per week and eliminated human errors completely.",
         author: "Sarah Mitchell",
-        role: "Technical Lead, TEK Systems"
+        role: "Operations Director, E-commerce Company"
       }
     },
     {
-      title: "Software Developer",
-      company: "RMCI",
-      period: "Mar 2023 - Jul 2024",
+      title: "Process Automation Consultant",
+      company: "Various Clients",
+      period: "2019 - 2023",
       location: "Remote Contract Position",
-      description: "Developed modern web applications using .NET Core Razor pages in an Agile/SCRUM environment. Focused on responsive design and user experience optimization.",
-      technologies: [".NET Core", "Razor Pages", "Agile", "SCRUM", "HTML", "CSS", "JavaScript"],
+      description: "Consulted for small to medium businesses on automation strategy and implementation. Built custom workflows using Power Automate, Zapier, and Python scripting for various industries.",
+      technologies: ["Power Automate", "Zapier", "Python", "Beautiful Soup", "Google Apps Script", "Webhook Development"],
       projects: [
         {
-          name: "Project Management Dashboard",
-          description: "Created a comprehensive project tracking dashboard using .NET Core Razor Pages with real-time updates and interactive charts.",
-          achievements: ["Increased project visibility by 90%", "Reduced status meeting time by 50%", "Implemented real-time notifications"],
+          name: "HR Onboarding Automation",
+          description: "Built a complete employee onboarding automation using Power Automate that handles document collection, account creation, and training scheduling.",
+          achievements: ["Reduced onboarding time from 2 weeks to 2 days", "100% compliance tracking", "Automated 200+ new hires"],
           image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "Employee Training Portal",
-          description: "Built an online training platform with course management, progress tracking, and certification generation capabilities.",
-          achievements: ["Streamlined training process for 500+ employees", "Automated certificate generation", "Integrated with HR systems"],
+          name: "Social Media Content Automation",
+          description: "Created Python scripts with Beautiful Soup for content scraping and automated social media posting across multiple platforms with AI-generated captions.",
+          achievements: ["Automated 50+ posts weekly", "Increased engagement by 60%", "Saved 20 hours per week"],
           image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "Inventory Management System",
-          description: "Developed a responsive inventory tracking system with barcode scanning integration and automated reorder alerts.",
-          achievements: ["Reduced inventory discrepancies by 75%", "Automated reorder process", "Mobile-responsive design"],
+          name: "Financial Reporting Automation",
+          description: "Built Zapier workflows to automatically collect financial data from multiple sources, generate reports, and distribute them to stakeholders.",
+          achievements: ["Automated monthly reporting", "Reduced errors by 90%", "Saved 15 hours monthly"],
           image: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ],
       testimonial: {
-        text: "Joe delivered high-quality solutions consistently in our fast-paced Agile environment. His attention to user experience made a significant impact.",
+        text: "Joe's automation solutions revolutionized our workflow efficiency. His Power Automate implementations are robust, reliable, and perfectly tailored to our needs.",
         author: "Michael Chen",
-        role: "Project Manager, RMCI"
+        role: "CEO, Digital Marketing Agency"
       }
     },
     {
-      title: "Integration Engineer",
-      company: "APEX Systems",
-      period: "Dec 2021 – Sep 2022",
+      title: "API Integration Specialist",
+      company: "Tech Startups",
+      period: "2018 - 2021",
       location: "Remote Contract Position",
-      description: "Built modern web applications using React.js and Node.js. Implemented API integrations and worked in fast-paced Agile development cycles.",
-      technologies: ["React.js", "Node.js", "JavaScript", "API Integration", "Agile", "Git"],
+      description: "Specialized in connecting disparate systems through API integrations and webhook development. Built custom connectors and data transformation pipelines for various SaaS platforms.",
+      technologies: ["REST APIs", "Webhook Development", "OAuth Flows", "Node.js", "Python", "Custom Connectors"],
       projects: [
         {
-          name: "Multi-Platform API Gateway",
-          description: "Designed and implemented a centralized API gateway using Node.js to integrate multiple third-party services and internal systems.",
-          achievements: ["Consolidated 12 different APIs", "Improved response time by 35%", "Implemented comprehensive error handling"],
+          name: "SaaS Platform Integration Hub",
+          description: "Built a centralized integration hub using N8N to connect CRM, email marketing, project management, and accounting platforms with real-time data sync.",
+          achievements: ["Integrated 15+ SaaS platforms", "Real-time data synchronization", "Reduced manual data entry by 85%"],
           image: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "Real-time Analytics Dashboard",
-          description: "Built a React-based analytics dashboard with live data visualization and customizable reporting features.",
-          achievements: ["Real-time data processing", "Interactive data visualization", "Customizable report generation"],
+          name: "Customer Support Automation",
+          description: "Developed intelligent customer support workflows using AI chatbots, ticket routing, and automated response systems with sentiment analysis.",
+          achievements: ["Reduced response time by 70%", "Automated 60% of support tickets", "Improved customer satisfaction by 45%"],
           image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "E-commerce Integration Platform",
-          description: "Developed integration solutions connecting e-commerce platforms with inventory and shipping systems using REST APIs.",
-          achievements: ["Automated order processing", "Reduced manual errors by 90%", "Integrated with 5 major platforms"],
+          name: "Marketing Attribution System",
+          description: "Created complex attribution tracking using webhooks and API integrations to track customer journey across multiple touchpoints and platforms.",
+          achievements: ["Tracked 100,000+ customer interactions", "Improved ROI tracking accuracy", "Automated attribution reporting"],
           image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ],
       testimonial: {
-        text: "Joe's API integration work was flawless. He transformed our complex system architecture into a streamlined, efficient platform.",
+        text: "Joe's API integration expertise is unmatched. He seamlessly connected our entire tech stack, creating a unified system that works flawlessly.",
         author: "Jennifer Rodriguez",
-        role: "Senior Developer, APEX Systems"
+        role: "CTO, SaaS Startup"
       }
     },
     {
-      title: "Software Developer",
-      company: "Various Companies",
-      period: "2018 - 2021",
-      location: "Multiple Remote Positions",
-      description: "Extensive experience in software development, debugging, and web technologies. Worked on various projects involving database management, web development, and system integration.",
-      technologies: ["C#", "ASP.NET", "SQL", "Visual Studio", "Web Development", "Database Management"],
+      title: "Automation Consultant",
+      company: "Small Business Clients",
+      period: "2015 - 2019",
+      location: "Remote & On-site",
+      description: "Helped small businesses identify automation opportunities and implement solutions using various tools and custom scripts. Focused on ROI-driven automation strategies.",
+      technologies: ["Excel VBA", "Google Apps Script", "IFTTT", "Basic Python", "Email Automation", "Data Processing"],
       projects: [
         {
-          name: "Financial Reporting System",
-          description: "Developed a comprehensive financial reporting application using C# Windows Forms with SQL Server backend for automated report generation.",
-          achievements: ["Automated monthly reporting process", "Reduced report generation time from days to hours", "Improved data accuracy"],
+          name: "Retail Inventory Automation",
+          description: "Built automated inventory management system using Google Sheets, Apps Script, and email notifications for a retail chain with multiple locations.",
+          achievements: ["Automated stock level monitoring", "Reduced stockouts by 50%", "Saved 25 hours weekly"],
           image: "https://images.pexels.com/photos/590045/pexels-photo-590045.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "Document Management System",
-          description: "Built a web-based document management system with version control, search capabilities, and user permissions using ASP.NET.",
-          achievements: ["Organized 10,000+ documents", "Implemented full-text search", "Role-based access control"],
+          name: "Client Communication Automation",
+          description: "Created automated client communication workflows using email templates, scheduling systems, and follow-up sequences for service-based businesses.",
+          achievements: ["Automated 80% of client communications", "Improved response rates by 35%", "Reduced admin time by 60%"],
           image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
-          name: "Database Optimization Project",
-          description: "Optimized legacy database systems by redesigning schemas, creating indexes, and implementing stored procedures for better performance.",
-          achievements: ["Improved query performance by 70%", "Reduced database size by 30%", "Eliminated data redundancy"],
+          name: "Lead Generation Automation",
+          description: "Developed lead generation and qualification systems using web scraping, email automation, and CRM integration for B2B companies.",
+          achievements: ["Generated 500+ qualified leads monthly", "Automated lead scoring", "Increased conversion rates by 25%"],
           image: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ],
       testimonial: {
-        text: "Joe's database optimization work was outstanding. His systematic approach to performance improvement delivered exceptional results.",
+        text: "Joe's automation solutions transformed our small business operations. His practical approach and cost-effective solutions delivered immediate ROI.",
         author: "David Thompson",
-        role: "IT Director"
+        role: "Business Owner, Retail Chain"
       }
     }
   ];
@@ -222,59 +222,59 @@ export default function Experience() {
         </div>
 
         <div className="mt-16 card bg-vercel-gray-50 dark:bg-vercel-gray-900 border-gray-200 dark:border-vercel-gray-800">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-vercel-white mb-4 transition-colors duration-200">Technical Accomplishments Summary</h3>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-vercel-white mb-4 transition-colors duration-200">Automation Impact Summary</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-medium text-gray-800 dark:text-vercel-gray-300 mb-3 transition-colors duration-200">Database & Performance</h4>
+              <h4 className="font-medium text-gray-800 dark:text-vercel-gray-300 mb-3 transition-colors duration-200">Workflow Optimization</h4>
               <ul className="space-y-2 text-sm text-gray-600 dark:text-vercel-gray-400 transition-colors duration-200">
-                <li>• Migrated 2M+ records with zero data loss</li>
-                <li>• Improved query performance by up to 70%</li>
-                <li>• Integrated 5+ disparate legacy systems</li>
-                <li>• Reduced database size by 30% through optimization</li>
+                <li>• Built 500+ automation workflows</li>
+                <li>• Saved clients 10,000+ hours annually</li>
+                <li>• Integrated 50+ different platforms</li>
+                <li>• Achieved 99.9% automation uptime</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-gray-800 dark:text-vercel-gray-300 mb-3 transition-colors duration-200">Process Automation & Efficiency</h4>
+              <h4 className="font-medium text-gray-800 dark:text-vercel-gray-300 mb-3 transition-colors duration-200">Business Impact & ROI</h4>
               <ul className="space-y-2 text-sm text-gray-600 dark:text-vercel-gray-400 transition-colors duration-200">
-                <li>• Reduced manual data entry by 80%</li>
-                <li>• Automated reporting processes saving days of work</li>
-                <li>• Decreased inventory discrepancies by 75%</li>
-                <li>• Improved customer response time by 50%</li>
+                <li>• Reduced manual work by up to 95%</li>
+                <li>• Improved process efficiency by 70% average</li>
+                <li>• Eliminated human errors in automated processes</li>
+                <li>• Generated $2M+ in cost savings for clients</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className="mt-12 text-center">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-vercel-white mb-6 transition-colors duration-200">What Colleagues Say</h3>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-vercel-white mb-6 transition-colors duration-200">What Clients Say</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card bg-vercel-white dark:bg-vercel-gray-900">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gray-300 dark:bg-vercel-gray-700 rounded-full flex items-center justify-center mr-4 transition-colors duration-200">
-                  <span className="text-gray-600 dark:text-vercel-gray-400 font-semibold transition-colors duration-200">AM</span>
+                  <span className="text-gray-600 dark:text-vercel-gray-400 font-semibold transition-colors duration-200">RM</span>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 dark:text-vercel-white transition-colors duration-200">Alex Martinez</div>
-                  <div className="text-sm text-gray-600 dark:text-vercel-gray-400 transition-colors duration-200">Senior Systems Architect</div>
+                  <div className="font-semibold text-gray-900 dark:text-vercel-white transition-colors duration-200">Rachel Martinez</div>
+                  <div className="text-sm text-gray-600 dark:text-vercel-gray-400 transition-colors duration-200">Operations Manager</div>
                 </div>
               </div>
               <blockquote className="text-gray-700 dark:text-vercel-gray-400 italic transition-colors duration-200">
-                &ldquo;Joe&apos;s ability to understand complex business requirements and translate them into efficient technical solutions is remarkable. His code is clean, well-documented, and maintainable.&rdquo;
+                &ldquo;Joe&apos;s automation expertise is remarkable. He transformed our chaotic manual processes into smooth, automated workflows that run flawlessly 24/7.&rdquo;
               </blockquote>
             </div>
             
             <div className="card bg-vercel-white dark:bg-vercel-gray-900">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gray-300 dark:bg-vercel-gray-700 rounded-full flex items-center justify-center mr-4 transition-colors duration-200">
-                  <span className="text-gray-600 dark:text-vercel-gray-400 font-semibold transition-colors duration-200">LW</span>
+                  <span className="text-gray-600 dark:text-vercel-gray-400 font-semibold transition-colors duration-200">TK</span>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 dark:text-vercel-white transition-colors duration-200">Lisa Wang</div>
-                  <div className="text-sm text-gray-600 dark:text-vercel-gray-400 transition-colors duration-200">Product Manager</div>
+                  <div className="font-semibold text-gray-900 dark:text-vercel-white transition-colors duration-200">Tom Kim</div>
+                  <div className="text-sm text-gray-600 dark:text-vercel-gray-400 transition-colors duration-200">CEO, Tech Startup</div>
                 </div>
               </div>
               <blockquote className="text-gray-700 dark:text-vercel-gray-400 italic transition-colors duration-200">
-                &ldquo;Working with Joe has been exceptional. He consistently delivers high-quality solutions on time and is always willing to go the extra mile to ensure project success.&rdquo;
+                &ldquo;Joe&apos;s Make.com and N8N implementations saved us $50K annually in operational costs. His automation solutions are game-changers for any business.&rdquo;
               </blockquote>
             </div>
           </div>

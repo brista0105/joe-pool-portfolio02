@@ -10,108 +10,108 @@ import 'swiper/css/pagination';
 export default function Testimonials() {
   const testimonials = [
     {
-      text: "Joe's expertise in legacy system integration saved us months of development time. His ability to bridge old and new technologies is exceptional.",
+      text: "Joe's Make.com automation workflows transformed our e-commerce operations. We went from 40 hours of manual work per week to complete automation with zero errors.",
       author: "Sarah Mitchell",
-      role: "Technical Lead, TEK Systems",
-      company: "TEK Systems",
+      role: "Operations Director, E-commerce Co",
+      company: "E-commerce Solutions",
       rating: 5
     },
     {
-      text: "Joe delivered high-quality solutions consistently in our fast-paced Agile environment. His attention to user experience made a significant impact.",
+      text: "The Power Automate solutions Joe built for our HR department are incredible. Employee onboarding that used to take 2 weeks now happens in 2 days, completely automated.",
       author: "Michael Chen",
-      role: "Project Manager, RMCI",
-      company: "RMCI",
+      role: "HR Director, Tech Corp",
+      company: "TechCorp Industries",
       rating: 5
     },
     {
-      text: "Joe's API integration work was flawless. He transformed our complex system architecture into a streamlined, efficient platform.",
+      text: "Joe's N8N integrations connected all our business tools seamlessly. Our CRM, email marketing, and project management systems now work as one unified platform.",
       author: "Jennifer Rodriguez",
-      role: "Senior Developer, APEX Systems",
-      company: "APEX Systems",
+      role: "CTO, Digital Agency",
+      company: "Digital Innovations",
       rating: 5
     },
     {
-      text: "Joe's database optimization work was outstanding. His systematic approach to performance improvement delivered exceptional results.",
+      text: "The GoHighLevel automation Joe set up for our sales team increased our conversion rates by 40%. His lead nurturing workflows are pure genius.",
       author: "David Thompson",
-      role: "IT Director",
+      role: "Sales Director, SaaS Company",
+      company: "SaaS Innovations",
+      rating: 5
+    },
+    {
+      text: "Joe's Python scripting and Beautiful Soup automation saved us 30 hours per week on data collection and social media management. ROI was immediate.",
+      author: "Alex Martinez",
+      role: "Marketing Manager, Startup",
+      company: "Growth Startup",
+      rating: 5
+    },
+    {
+      text: "The automation workflows Joe built using Zapier and custom APIs eliminated 90% of our manual data entry. Our team can now focus on strategic work instead of repetitive tasks.",
+      author: "Lisa Wang",
+      role: "Operations Manager, Consulting Firm",
+      company: "Business Consulting Group",
+      rating: 5
+    },
+    {
+      text: "Joe's webhook development and API integration expertise is unmatched. He connected our entire tech stack flawlessly, creating real-time data synchronization across 10+ platforms.",
+      author: "Robert Johnson",
+      role: "Technical Director, Enterprise",
       company: "Enterprise Solutions",
       rating: 5
     },
     {
-      text: "Joe's ability to understand complex business requirements and translate them into efficient technical solutions is remarkable. His code is clean, well-documented, and maintainable.",
-      author: "Alex Martinez",
-      role: "Senior Systems Architect",
+      text: "Joe's automation solutions for our customer support reduced response times by 70% and automated 60% of our tickets. Customer satisfaction scores improved dramatically.",
+      author: "Amanda Foster",
+      role: "Customer Success Director",
+      company: "Support Solutions Inc",
+      rating: 5
+    },
+    {
+      text: "The financial reporting automation Joe created using multiple API integrations saves us 20 hours monthly and eliminated all manual errors in our reports.",
+      author: "Kevin Park",
+      role: "CFO, Manufacturing Co",
+      company: "Manufacturing Solutions",
+      rating: 5
+    },
+    {
+      text: "Joe's inventory automation using Google Sheets and Apps Script transformed our retail operations. We reduced stockouts by 50% and saved 25 hours weekly.",
+      author: "Maria Gonzalez",
+      role: "Store Manager, Retail Chain",
+      company: "Retail Dynamics",
+      rating: 5
+    },
+    {
+      text: "The lead generation automation Joe built using web scraping and CRM integration generates 500+ qualified leads monthly. Our sales pipeline has never been stronger.",
+      author: "Thomas Anderson",
+      role: "VP Sales, B2B Company",
+      company: "B2B Solutions",
+      rating: 5
+    },
+    {
+      text: "Joe's email marketing automation and customer journey mapping increased our conversion rates by 35%. His understanding of automation psychology is impressive.",
+      author: "Rachel Green",
+      role: "Marketing Director, E-commerce",
+      company: "Online Retail Co",
+      rating: 5
+    },
+    {
+      text: "The multi-platform integration Joe created using N8N connects our entire business ecosystem. Real-time data sync across 15+ tools with 99.9% uptime.",
+      author: "Daniel Kim",
+      role: "IT Manager, Tech Company",
       company: "Tech Innovations",
       rating: 5
     },
     {
-      text: "Working with Joe has been exceptional. He consistently delivers high-quality solutions on time and is always willing to go the extra mile to ensure project success.",
-      author: "Lisa Wang",
-      role: "Product Manager",
-      company: "Digital Solutions Inc",
-      rating: 5
-    },
-    {
-      text: "Joe's expertise in C# and .NET development is impressive. He solved complex problems that had been troubling our team for weeks in just a few days.",
-      author: "Robert Johnson",
-      role: "Lead Developer",
-      company: "Software Dynamics",
-      rating: 5
-    },
-    {
-      text: "The migration project Joe handled was flawless. Zero downtime, zero data loss, and completed ahead of schedule. Truly professional work.",
-      author: "Amanda Foster",
-      role: "Operations Manager",
-      company: "DataFlow Systems",
-      rating: 5
-    },
-    {
-      text: "Joe's React and Node.js skills are top-notch. The dashboard he built for us has become an essential tool for our daily operations.",
-      author: "Kevin Park",
-      role: "CTO",
-      company: "StartupTech",
-      rating: 5
-    },
-    {
-      text: "His military background really shows in his work ethic and attention to detail. Joe approaches every project with discipline and precision.",
-      author: "Maria Gonzalez",
-      role: "HR Director",
-      company: "Corporate Solutions",
-      rating: 5
-    },
-    {
-      text: "Joe's ability to work with legacy systems while implementing modern solutions is exactly what we needed. He bridged a 20-year technology gap seamlessly.",
-      author: "Thomas Anderson",
-      role: "Systems Administrator",
-      company: "Legacy Corp",
-      rating: 5
-    },
-    {
-      text: "The training portal Joe developed has revolutionized our employee onboarding process. The feedback from our team has been overwhelmingly positive.",
-      author: "Rachel Green",
-      role: "Training Coordinator",
-      company: "Learning Solutions",
-      rating: 5
-    },
-    {
-      text: "Joe's problem-solving skills are exceptional. He identified and fixed performance issues that had been plaguing our system for months.",
-      author: "Daniel Kim",
-      role: "Senior Software Engineer",
-      company: "Performance Systems",
-      rating: 5
-    },
-    {
-      text: "Working in an Agile environment with Joe was seamless. He adapted quickly to our processes and contributed valuable insights to improve our workflow.",
+      text: "Joe's process automation consulting transformed our entire business model. His strategic approach to automation delivered $200K in annual savings.",
       author: "Sophie Turner",
-      role: "Scrum Master",
-      company: "Agile Innovations",
+      role: "COO, Service Company",
+      company: "Professional Services",
       rating: 5
     },
     {
-      text: "The inventory management system Joe built has reduced our operational costs significantly. His understanding of business processes is remarkable.",
+      text: "Joe's AI-powered automation workflows using OpenAI API integration revolutionized our content creation process. We now produce 10x more content with better quality.",
       author: "Mark Williams",
-      role: "Operations Director",
-      company: "Supply Chain Solutions",
+      role: "Content Director, Media Co",
+      company: "Digital Media Group",
       rating: 5
     }
   ];

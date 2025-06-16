@@ -1,16 +1,16 @@
 export default function Hobbies() {
   const hobbies = [
-    { title: "Fitness", description: "Maintaining physical health through regular exercise" },
-    { title: "Motorcycles", description: "Passion for riding and mechanical understanding" },
-    { title: "Tractors", description: "Interest in agricultural machinery and maintenance" },
-    { title: "Outdoor Activities", description: "Hiking, camping, and nature activities" },
-    { title: "Computers", description: "Continuous learning about new technologies" }
+    { title: "AI Research", description: "Exploring new AI tools and integration possibilities" },
+    { title: "Automation Trends", description: "Staying current with emerging automation platforms" },
+    { title: "Process Optimization", description: "Finding efficiency improvements in daily workflows" },
+    { title: "Tech Communities", description: "Active in automation and AI professional groups" },
+    { title: "Continuous Learning", description: "Always exploring new tools and methodologies" }
   ];
 
   return (
-    <section className="section bg-vercel-gray-50 dark:bg-vercel-gray-950 transition-colors duration-200">
+    <section id="interests" className="section bg-vercel-gray-50 dark:bg-vercel-gray-950 transition-colors duration-200">
       <div className="container">
-        <h2 className="section-title">Hobbies & Interests</h2>
+        <h2 className="section-title">Professional Interests</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {hobbies.map((hobby) => (
             <div key={hobby.title} className="card">
@@ -21,8 +21,8 @@ export default function Hobbies() {
         </div>
         <div className="mt-8 text-center">
           <p className="text-gray-600 dark:text-vercel-gray-400 max-w-2xl mx-auto transition-colors duration-200">
-            My diverse interests reflect a well-rounded approach to life, combining physical activity, 
-            mechanical aptitude, and continuous learning that complement my professional skills.
+            My passion for automation extends beyond client work. I&apos;m constantly exploring new tools, 
+            methodologies, and AI integrations to deliver cutting-edge solutions to my clients.
           </p>
         </div>
       </div>

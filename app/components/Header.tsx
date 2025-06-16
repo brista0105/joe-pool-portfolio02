@@ -10,10 +10,10 @@ export default function Header() {
             <nav className="hidden md:flex space-x-8">
               <a href="#about" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">About</a>
               <a href="#skills" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Skills</a>
-              <a href="#experience" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Experience</a>
-              <a href="#education" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Education</a>
+              <a href="#experience" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Portfolio</a>
+              <a href="#education" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Certifications</a>
               <a href="#testimonials" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Testimonials</a>
-              <a href="#contact" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Let&apos;s Work Together</a>
+              <a href="#contact" className="text-gray-600 hover:text-gray-900 dark:text-vercel-gray-400 dark:hover:text-vercel-white transition-colors duration-200">Get Started</a>
             </nav>
             <ThemeToggle />
           </div>

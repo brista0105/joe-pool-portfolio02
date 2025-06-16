@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import { ThemeProvider } from './components/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: 'Joe Pool - Senior Software Developer',
-  description: 'Professional portfolio of Joe Pool, Senior Software Developer with expertise in C#, ASP.NET, SQL, and modern web technologies.',
+  title: 'Joe Pool - Automation & AI Expert | $70/hr',
+  description: 'Professional automation consultant specializing in Make.com, N8N, Power Automate, and AI integration. 10+ years experience building workflow automation solutions.',
 };
 
 export default function RootLayout({
